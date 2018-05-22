@@ -1,0 +1,562 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:600);
+
+.section-showcase{
+  max-height:100%;
+  max-width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.30) 0%,rgba(0,0,0,0.30) 100%), url("../../images/airport.jpg");
+  background-size:cover;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-showcase{
+    height:800px;
+    width: 100%;
+  }
+
+  .section-showcase .title{
+    margin-bottom: 40px; 
+  }
+}
+
+.section-showcase .showcase-content{
+  padding:50px 15px;
+  color:#fff;
+  text-align:center;
+  max-width: 65em;
+  width: calc(100% - 6em);
+  margin: 0 auto;
+  line-height: 1.5;
+  text-shadow: 2px 2px black;
+  font-size: 30px;
+}
+
+.section-showcase .showcase-content .title{
+  font-family: 'Alex Brush';
+  font-size:60px;
+}
+
+.showcase-content{
+  margin: auto;
+  align-content: center;
+}
+
+section {
+  padding: 5% 0;
+}
+
+.button-search{
+  width:100%;
+  text-align:center;
+}
+
+.btnSearch {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: 2px solid;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 25px 0px 70px;
+  text-align: center;
+  display: inline-block;
+  margin: 12px 25px;
+  font-weight: 600;
+  outline: none;
+  position: relative;
+  font-size: 18px;
+  line-height: 50px;
+  background-color: transparent;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btnSearch i {
+  font-size: 4em;
+  width: 55px;
+  line-height: 50px;
+  position: absolute;
+  left: -5px;
+  top: 5px;
+  -webkit-transform: rotate(-25deg) scale(1);
+  transform: rotate(-25deg) scale(1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btnSearch:hover,
+.btnSearch .hover {
+  color: #ffffff;
+  background-color: #48c4b7;
+}
+.btnSearch:hover i,
+.btnSearch .hover i {
+  -webkit-transform: rotate(-20deg) scale(1.3);
+  transform: rotate(-20deg) scale(1.3);
+}
+
+/* PACKAGES */
+.section-showcase-second {
+  max-height: 100%;
+  max-width: 100%;  
+  color:white;
+  background: -webkit-linear-gradient(left, #3be2cb , #463960); 
+  background: -o-linear-gradient(right, #3be2cb, #463960); 
+  background: -moz-linear-gradient(right, #3be2cb, #463960);
+  background: linear-gradient(to right, #3be2cb , #463960); 
+
+}
+
+.section-showcase-second .Title{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom:50px;
+  font-family: 'Pacifico';  
+  text-shadow: 2px 2px 2px black; 
+}
+
+.alizarin {
+  background: #e74c3c;
+}
+
+.amethyst {
+  background: #9b59b6;
+}
+
+.emerald {
+  background: #2ecc71;
+}
+
+.midnight-blue {
+  background: #2c3e50;
+}
+
+.peter-river {
+  background: #3498db;
+}
+
+.dl {  
+  padding: 30px 0;
+  border-radius: 20px;
+  position: relative;
+  /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url("../../images/tokyo.jpeg"); */
+  background-size: cover;  
+}
+
+.dl:before {
+  content: " ";
+  height: 20px;
+  width: 20px;
+  background: #ddd;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  margin-left: -10px;
+}
+  
+.dl .brand {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  text-align: center;
+  min-height: 100px; 
+}
+
+.dl .discount {
+  min-height: 50px;
+  position: relative;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: bold;
+
+  padding: 20px 15px 0;
+  color: #f1c40f;
+}
+
+.dl .discount:after {
+  content: " ";
+  
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  position: absolute;
+  bottom: -20px;
+  left: 20%;
+}
+
+.dl .discount.alizarin:after {
+  border-top: 20px solid #e74c3c;
+}
+
+.dl .discount.peter-river:after {
+  border-top: 20px solid #3498db;
+}
+
+.dl .discount.emerald:after {
+  border-top: 20px solid #2ecc71;
+}
+
+.dl .discount.amethyst:after {
+  border-top: 20px solid #9b59b6;
+}
+
+.dl .discount .type {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: -30px;
+}
+
+.dl .descr {  
+  margin-top: 10px;
+  padding: 20px 15px; 
+}
+
+.dl .ends {
+  padding: 0 15px;
+  color: #f1c40f;
+  margin-bottom: 10px;
+}
+
+.dl .coupon {
+  min-height: 50px;
+  text-align: center;
+  
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px 15px;
+}
+
+.dl .coupon a.open-code {
+  color: #16a085;
+}
+
+.dl .coupon .code {
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  color: #f1c40f;
+  background: #f0f0f0;
+}
+ 
+/* Packages */
+.package-list{
+  text-align: center;
+  display:block;
+  align-content: center;
+  margin-bottom: 80px;
+}
+
+.package-list .package-item{
+  border: 1px solid black;  
+  height: 200px;  
+  width: 200px;
+  left:17%;
+  margin:10px 10px auto;
+  background-color: rgba(0, 0, 0, 0.733);
+  border-top-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  color:white;
+  font-family: 'Lobster';
+}
+
+.package-prefix{
+  font-size: 10px;
+  margin-top: 20px;  
+  padding: 0px;
+  text-align: left;
+}
+
+.package-price{
+  margin-top: -40px;
+  font-size: 70px;
+  text-align: left;
+  padding:0px;
+  left:10px;
+}
+
+.package-price small{
+  font-size: 40px;
+}
+
+.package-description{
+  font-size:15px;
+}
+
+.package-link{
+  color:#16a085;
+}
+
+.package-animation-1{
+  -webkit-animation-name: first; /* Safari 4.0 - 8.0 */
+  -webkit-animation: ease-in 1s linear 1s 1 normal forwards;
+  animation-name: first;
+  animation: bubble 2s easy-in 2s 1 normal forwards;
+  opacity:0;
+}
+
+.package-animation-2{
+  -webkit-animation-name: first; /* Safari 4.0 - 8.0 */
+  -webkit-animation: ease-in 1s linear 1.5s 1 normal forwards;
+  animation-name: first;
+  animation: bubble 2s easy-in 2s 1 normal forwards;
+  opacity:0;
+}
+
+.package-animation-3{
+  -webkit-animation-name: first; /* Safari 4.0 - 8.0 */
+  -webkit-animation: ease-in 1s linear 2s 1 normal forwards;
+  animation-name: first;
+  animation: bubble 2s easy-in 2s 1 normal forwards;
+  opacity:0;
+}
+
+.package-animation-4{
+  -webkit-animation-name: first; /* Safari 4.0 - 8.0 */
+  -webkit-animation: ease-in 1s linear 2.5s 1 normal forwards;
+  animation-name: first;
+  animation: bubble 2s easy-in 2s 1 normal forwards;
+  opacity:0;
+}
+
+/*PACKAGE - ANIMATION */
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes first {
+  0%   {top:200px; opacity: 0}
+  100% {top:0px; opacity: 1}
+}
+
+/* Standard syntax */
+@keyframes first {
+  0%   {top:200px; opacity: 0}
+  100% {top:0px; opacity: 1}
+}
+
+/* Services */
+.section-showcase-third{
+  background-color: #c9d3d1;
+}
+
+.round-item{
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display:block;
+  margin:auto;
+}
+
+.flight-img{
+  background: url("../../images/flight.jpeg") no-repeat;
+  background-size:cover;
+}
+
+.car-img{
+  background: url("../../images/car.jpeg") no-repeat;
+  background-size:cover;
+}
+
+.hotel-img{
+  background: url("../../images/hotel.jpeg") no-repeat;
+  background-size:cover;
+}
+
+.service-align{
+  text-align:center;
+  margin: 0 auto;
+} 
+
+.service-align .content-title{
+  font-size:30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.service-align .content-description{
+  margin-bottom: 50px;
+}
+
+.service-align .flight-image{
+  -webkit-transition: swing 1s ease; /* For Safari 3.1 to 6.0 */
+  transition: swing 1s ease;
+}
+
+.service-align .flight-img:hover{
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.service-align .flight-animation{
+  -webkit-animation-name: animation-service; /* Safari 4.0 - 8.0 */
+  -webkit-animation: ease-in 2s linear 0s 1 normal forwards;
+  animation-name: animation-service;
+  animation: easy-in 2s easy-in 2s 1 normal forwards;
+  opacity:0;
+} 
+
+.service-align .car-img:hover{
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.service-align .car-animation{
+  -webkit-animation-name: animation-service; /* Safari 4.0 - 8.0 */
+  -webkit-animation: ease-in 2s linear 1s 1 normal forwards;
+  animation-name: animation-service;
+  animation: bubble 2s easy-in 2s 1 normal forwards;
+  opacity:0;
+} 
+
+.service-align .hotel-img:hover{
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.service-align .hotel-animation{
+  -webkit-animation-name: animation-service; /* Safari 4.0 - 8.0 */
+  -webkit-animation: ease-in 2s linear 2s 1 normal forwards;
+  animation-name: animation-service;
+  animation: bubble 2s easy-in 2s 1 normal forwards;
+  opacity:0;
+} 
+/*SERVICES - ANIMATION */
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animation-service {
+  0%   {right:-500px; opacity: 0}
+  100% {right:0px; opacity: 1}
+}
+
+/* Standard syntax */
+@keyframes animation-service {
+  0%   {right:-500px; opacity: 0}
+  100% {right:0px; opacity: 1}
+}
+
+@-webkit-keyframes swing
+{
+    15%{-webkit-transform: translateX(5px); transform: translateX(5px);}
+    30%{-webkit-transform: translateX(-5px);transform: translateX(-5px);} 
+    50%{-webkit-transform: translateX(3px); transform: translateX(3px);}
+    65%{-webkit-transform: translateX(-3px);transform: translateX(-3px);}
+    80%{-webkit-transform: translateX(2px);transform: translateX(2px);}
+    100%{-webkit-transform: translateX(0);transform: translateX(0);}
+}
+@keyframes swing
+{
+    15%{ -webkit-transform: translateX(5px);transform: translateX(5px);}
+    30%{ -webkit-transform: translateX(-5px);transform: translateX(-5px);}
+    50%{ -webkit-transform: translateX(3px);transform: translateX(3px);}
+    65%{ -webkit-transform: translateX(-3px);transform: translateX(-3px);}
+    80%{ -webkit-transform: translateX(2px);transform: translateX(2px);}
+    100%{-webkit-transform: translateX(0);transform: translateX(0);}
+}
+
+/* EXTRA */
+.section-showcase-fourth{
+  background: -webkit-linear-gradient(left, #463960 , #3be2cb); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #463960, #3be2cb); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #463960, #3be2cb); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #463960 , #3be2cb); /* Standard syntax (must be last) */
+}
+
+.extra-align{
+  text-align: center;
+  margin: 0 auto;  
+}
+
+.extra-align .extra-content{
+  font-family: Pacifico;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 15%;
+  margin: auto;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
+.extra-align .event-img{  
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url("../../images/event.jpeg");
+  background-size:cover;  
+}
+
+.extra-align .wedding-img{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url("../../images/wedding.jpeg");
+  background-size:cover;
+}
+
+
+.extra-align .unique-img{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url("../../images/unique.jpeg");
+  background-size:cover;
+}
+
+.extra-align .extra-content{
+  color: #fff;
+  vertical-align: middle;
+}
+
+
+/* CARD ANIMATION */
+.cardBox{
+  perspective: 500px;
+  margin:0px;
+}
+
+.card{
+  position:relative;
+  width: 370px;
+  height:250px;
+  background:#fff;
+  transform-style: preserve-3d;
+  transition: .5s ease;
+  box-shadow:0 30px 30px rgba(0,0,0,.5);
+  border: 2px solid black;
+}
+
+.card-front, .card-back{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 150px;
+  height:150px;
+  color:#fff;
+  backface-visibility: hidden;
+}
+
+.card-front{
+  font-size: 40px;
+  justify-content: center;
+  align-items:center;
+  display:flex;
+}
+
+.card-back{
+  font-size: 30px;
+  justify-content: center;
+  align-items:center;
+  display:flex;
+  background-color: black;
+}
+
+.cardBox:hover .card{
+  transform:rotateY(180deg);
+}
+
+.card-back{
+  transform: rotateY(180deg);
+}
