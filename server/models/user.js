@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
 
 //User Schema
 const UserSchema = mongoose.Schema({
@@ -38,5 +40,27 @@ module.exports.addUser = (newUser, callback) => {
 //Check if user exists
 module.exports.login = (user, callback) => {
     User.findOne(callback);
+}
+
+//Reset the user password
+module.exports.resetPassword = (req, res) => {
+    User.update({ person_id: req.params.id }, {$set:{password: generateEncryptedPassword(req.params.password)}}, (err, result) => {
+        if (err) {
+            res.json({ success: false, msg: 'Failed to reset the password' });
+        } else {
+            res.json({ success: true, msg: 'password updated' });
+        }
+    });
+};
+
+//Generates an encrypted password
+module.exports.generateEncryptedPassword = (password) => {
+    var hash = bcrypt.hashSync(password, saltRounds);
+    return hash;
+}
+
+generateEncryptedPassword = (password) => {
+    var hash = bcrypt.hashSync(password, saltRounds);
+    return hash;
 }
 

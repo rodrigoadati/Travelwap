@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:600);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
 .flight{
     height:700px;
     width: 100%;
@@ -15,7 +18,7 @@
 }
 
 .flight .flight-space{
-    margin-top: 20px;    
+    margin-top: 10px;    
 }
 
 .flight .main{
@@ -33,3 +36,185 @@
 .flight .form-fligh{
     width: 100%;
 }
+
+.flight .button-flight{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.SearchFlight{
+    margin-top: 100px;    
+}
+
+.SearchFlight .flight-main{
+    margin: 0 auto;
+}
+
+.SearchFlightItem .search-item{    
+    background-size: cover;
+    height:300px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px 45px; 
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.SearchFlightItem .search-text{
+    font-family: "Pacifico";
+    font-size: 40px;    
+    color: white;
+}
+
+/* FLIGHT DETAIL */
+.SearchFlightDetail{     
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+}
+
+.SearchFlightDetail .detail-main{
+    margin-top: 100px;      
+}
+
+.SearchFlightDetail .title{
+    font-size: 50px;
+    font-family: "Pacifico";
+}
+
+.SearchFlightDetail .detail-image{    
+    height: 300px;
+    background-position: 50% 30%;
+    background-size: cover;
+    border: 2px solid black;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.SearchFlightItemList .detail-content{
+    background-color: #d1d0d0;
+}
+
+
+.SearchFlightDetail .detail-content .detail-list{    
+    border: 2px solid black;    
+}
+
+.SearchFlightDetail .detail-content .detail-list-image{    
+    margin: 20px 20px; 
+    background-size: cover;    
+    border-radius: 25px;
+    height:150px;
+    width:150px;   
+}
+
+.SearchFlightDetail .detail-content .detail-list-title{    
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.SearchFlightDetail .detail-content .detail-list-price{    
+    font-weight: bold;
+    margin: 10px 20px;
+    font-size: 30px;
+    text-align: right;    
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.SearchFlightDetail .detail-content .detail-list-actions{
+    text-align: right;
+}
+
+.SearchFlightDetail .detail-content .btn-action{
+    margin: 10px 10px;
+}
+
+/* FLIGHT ITEM LIST DETAIL */
+.SearchFlightItemListDetail {    
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.SearchFlightItemListDetail .detail-main{
+    margin-top: 10px;   
+}
+
+.SearchFlightItemListDetail .title{
+    font-size: 50px;
+    font-family: "Pacifico";
+    padding-left:10px;
+}
+
+.SearchFlightItemListDetail .description{
+    font-size: 30px;
+    font-family: "Pacifico";
+    padding-left:10px;
+    margin-bottom:20px;
+}
+
+.SearchFlightItemListDetail .image{    
+    height: 200px;
+    width: 97.5%;
+    background-position: 50% 30%;
+    background-size: cover;
+    border: 2px solid black;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin: 0 auto;
+}
+
+.SearchFlightItemListDetail .content{    
+    border: 2px solid black;    
+    height: 800px;
+}
+
+.SearchFlightItemListDetail .row-align{
+    margin: 20px 0px;
+    width: 100%;
+    background-color: #19839e;
+    box-shadow: 4px 4px 4px #888888;
+    color: white;
+}
+
+.SearchFlightItemListDetail .main-text{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.SearchFlightItemListDetail .content-item{
+    padding-top: 6px;
+}
+
+.SearchFlightItemListDetail .content-item-list{
+    padding-top: 6px;
+    margin-left: -15px;
+}
+
+.SearchFlightItemListDetail .available-flights{
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+.SearchFlightItemListDetail .available-flights-tab{
+    margin-top: 20px;
+}
+    
+/* RADAR */
+.SearchPriceRadar .form-radar{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.SearchPriceRadar .form-radar{
+    width: 90%;
+}
+

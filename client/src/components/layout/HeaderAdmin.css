@@ -1,0 +1,7 @@
+.link {
+    color: #ffffff;
+}
+
+.link a:link:active, a:visited:active {
+    color: #ffffff;
+}

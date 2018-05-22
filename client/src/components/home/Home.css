@@ -135,16 +135,20 @@ section {
   background: #3498db;
 }
 
+.Packages a:hover{
+  text-decoration:  none;
+}
+
 .dl {  
   padding: 30px 0;
   border-radius: 20px;
   position: relative;
   /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url("../../images/tokyo.jpeg"); */
   background-size: cover;  
+  color:white;
 }
 
 .dl:before {
-  content: " ";
   height: 20px;
   width: 20px;
   background: #ddd;
@@ -220,29 +224,11 @@ section {
   margin-bottom: 10px;
 }
 
-.dl .coupon {
-  min-height: 50px;
+.Packages .countdown{
   text-align: center;
   
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 20px 15px;
 }
 
-.dl .coupon a.open-code {
-  color: #16a085;
-}
-
-.dl .coupon .code {
-  letter-spacing: 1px;
-  border-radius: 4px;
-  margin-top: 10px;
-  padding: 10px 15px;
-  color: #f1c40f;
-  background: #f0f0f0;
-}
- 
 /* Packages */
 .package-list{
   text-align: center;
@@ -356,7 +342,7 @@ section {
 }
 
 .car-img{
-  background: url("../../images/car.jpeg") no-repeat;
+  background: url("../../images/cruise.jpeg") no-repeat;
   background-size:cover;
 }
 

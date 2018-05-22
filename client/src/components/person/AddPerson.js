@@ -191,7 +191,7 @@ export default class AddPerson extends Component {
                                     <div className="col-md-6">
                                         <SelectValidator
                                             floatingLabelText="Country"
-                                            name="country"
+                                            name="country"  
                                             value={this.state.person.country}
                                             onChange={this.handleChangeCountry}
                                             validators={['required']}

@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:600);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+.hotel{
+    height:700px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url("../../images/book_flight.jpeg");
+    background-size:cover;
+}
+
+.hotel .title{
+    color:white;
+    font-size: 40px;
+    font-family: "Pacifico";
+    width: 100%;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.hotel .hotel-space{
+    margin-top: 10px;    
+}
+
+.hotel .main{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.hotel .main-container{
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #000000b6;
+}
+
+.hotel .form-fligh{
+    width: 100%;
+}
+
+.hotel .button-hotel{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.SearchHotel{
+    margin-top: 100px;    
+}
+
+.SearchHotel .hotel-main{
+    margin: 0 auto;
+}
+
+.SearchHotelItem .search-item{    
+    background-size: cover;
+    height:300px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px 45px; 
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.SearchHotelItem .search-text{
+    font-family: "Pacifico";
+    font-size: 40px;    
+    color: white;
+}
+
+/* hotel DETAIL */
+.SearchHotelDetail{     
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+}
+
+.SearchHotelDetail .detail-main{
+    margin-top: 100px;      
+}
+
+.SearchHotelDetail .title{
+    font-size: 50px;
+    font-family: "Pacifico";
+}
+
+.SearchHotelDetail .detail-image{    
+    height: 300px;
+    background-position: 50% 30%;
+    background-size: cover;
+    border: 2px solid black;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.SearchHotelItemList .detail-content{
+    background-color: #d1d0d0;
+}
+
+
+.SearchHotelDetail .detail-content .detail-list{    
+    border: 2px solid black;    
+}
+
+.SearchHotelDetail .detail-content .detail-list-image{    
+    margin: 20px 20px; 
+    background-size: cover;    
+    border-radius: 25px;
+    height:150px;
+    width:150px;   
+}
+
+.SearchHotelDetail .detail-content .detail-list-title{    
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.SearchHotelDetail .detail-content .detail-list-price{    
+    font-weight: bold;
+    margin: 10px 20px;
+    font-size: 30px;
+    text-align: right;    
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.SearchHotelDetail .detail-content .detail-list-actions{
+    text-align: right;
+}
+
+.SearchHotelDetail .detail-content .btn-action{
+    margin: 10px 10px;
+}
+
+/* hotel ITEM LIST DETAIL */
+.SearchHotelItemListDetail {    
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.SearchHotelItemListDetail .detail-main{
+    margin-top: 10px;   
+}
+
+.SearchHotelItemListDetail .title{
+    font-size: 50px;
+    font-family: "Pacifico";
+    padding-left:10px;
+}
+
+.SearchHotelItemListDetail .description{
+    font-size: 30px;
+    font-family: "Pacifico";
+    padding-left:10px;
+    margin-bottom:20px;
+}
+
+.SearchHotelItemListDetail .image{    
+    height: 200px;
+    width: 97.5%;
+    background-position: 50% 30%;
+    background-size: cover;
+    border: 2px solid black;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin: 0 auto;
+}
+
+.SearchHotelItemListDetail .content{    
+    border: 2px solid black;    
+    height: 800px;
+}
+
+.SearchHotelItemListDetail .row-align{
+    margin: 20px 0px;
+    width: 100%;
+    color: Black;
+}
+
+.SearchHotelItemListDetail .main-text{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.SearchHotelItemListDetail .content-item{
+    padding-top: 6px;
+}
+
+.SearchHotelItemListDetail .content-item-list{
+    padding-top: 6px;
+    margin-left: -15px;
+}
+
+.SearchHotelItemListDetail .available-flights{
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+.SearchHotelItemListDetail .available-flights-tab{
+    margin-top: 20px;
+}
+    
+/* RADAR */
+.SearchPriceRadar .form-radar{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.SearchPriceRadar .form-radar{
+    width: 90%;
+}
+

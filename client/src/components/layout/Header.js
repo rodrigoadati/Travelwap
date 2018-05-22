@@ -19,6 +19,9 @@ export default class Header extends Component {
     //Clean cookie session of user
     SignOut() {
         this.state.cookies.remove('username');
+        this.state.cookies.remove('user_id');
+        this.state.cookies.remove('email');
+        this.state.cookies.remove('role');
         history.push('/');
     }
 
@@ -26,7 +29,7 @@ export default class Header extends Component {
     //TEMPLATE
     /**********************/
     render() {
-        const isLoggedIn = this.state.cookies.get('username') != undefined ? true : false;
+        const isLoggedIn = this.state.cookies.get('username') !== undefined ? true : false;
         return (
             <div>
                 <div className="navbar-wrapper">
@@ -45,9 +48,9 @@ export default class Header extends Component {
                                 <div id="navbar" className="navbar-collapse collapse">
                                     <ul className="nav navbar-nav">
                                         <li ><Link to={'/'}>Home</Link></li>
-                                        <li ><Link to={'/flight'}>Flights</Link></li>
-                                        <li ><Link to={'/hotel'}>Hotels</Link></li>
-                                        <li ><Link to={'/car'}>Rent a Car</Link></li>
+                                        <li ><Link to={'/SearchFlight'}>Flights</Link></li>
+                                        <li ><Link to={'/SearchHotel'}>Hotels</Link></li>
+                                        <li ><Link to={'/SearchCruise'}>Cruise</Link></li>
                                     </ul>
                                     <ul className="nav navbar-nav pull-right hide-on-med-and-down navbar-right">
                                         <li className="dropdown">
